@@ -12,11 +12,9 @@ def line(deli)
 end
 
 
-def take_a_number (katz_deli, customer_name)
-  customer_name << katz_deli
-  line_size = katz_deli.length
-  customer_number = (line_size.to_i) + 1
-  puts "Welcome, #{customer_name}. You are number #{customer_number} in line."
+def take_a_number (deli, customer_name)
+  deli << customer_name
+  puts "Welcome #{customer_name}. You are number #{deli.size} in line."
 end
 
 
