@@ -23,5 +23,6 @@ def now_serving(deli)
     puts "There iss nobody waiting to be served!"
   else
     puts "Currently serving #{deli.first}."
+  end
 
 end
